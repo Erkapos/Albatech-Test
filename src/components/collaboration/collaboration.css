@@ -1,0 +1,38 @@
+.collaboration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272727;
+  padding: 2% 0;
+}
+
+.collaboration-container > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.collaboration-title{
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #FFCE07;
+}
+
+.collaboration-content{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collaboration-content > h4{
+  font-weight: 400;
+}
+
+
+@media (max-width: 700px) {
+  .collaboration-container > div{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

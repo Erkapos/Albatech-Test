@@ -1,0 +1,45 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+}
+
+body {
+  color: #272727;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  color: #c4c4c4;
+}
+
+.s-font {
+  font-size: 0.8rem;
+}
+
+.m-font {
+  font-size: 1.3rem;
+}
+
+.l-font {
+  font-size: 2rem;
+}
+
+.xl-font {
+  font-size: 2.5rem;
+}
+
+.xxl-font {
+  font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+  .xxl-font {
+    font-size: 3rem;
+  }
+}

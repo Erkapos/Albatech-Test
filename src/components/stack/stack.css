@@ -1,0 +1,29 @@
+.stack-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 12%;
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+.stack-grid > * {
+  width: 91px;
+  height: 91px;
+}
+
+@media (max-width: 1300px) {
+  .stack-container {
+    padding: 21px 2%;
+  }
+
+  .stack-grid{
+    grid-template-columns: repeat(3, auto)
+  }
+}

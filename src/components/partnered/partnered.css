@@ -1,0 +1,38 @@
+.partnered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 12%;
+}
+.partnered-grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 100%;
+  justify-content: space-between;
+}
+
+.partnered-grid > img {
+  width: 100%;
+}
+
+.dot-container {
+  padding: 1rem;
+}
+.dot {
+  margin: 1rem;
+  background-color: #c5c5c5;
+  border-radius: 100%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+.dot.active {
+  background-color: orange;
+}
+
+@media (max-width: 1300px) {
+  .partnered-container {
+    padding: 21px 2%;
+  }
+}

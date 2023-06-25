@@ -1,0 +1,74 @@
+.testimonial-container {
+  text-align: center;
+  padding: 2% 0;
+}
+
+.testimonial-content {
+  background-image: url(./images/Group\ 82.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0 12%;
+}
+
+.testimonial-content > h2 {
+  padding: 2rem 0;
+}
+
+.testimonial-grid {
+  text-align: start;
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  padding: 4rem 0;
+  row-gap: 4rem;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonial-flex {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.testimonial-flex > div:nth-child(1) {
+  padding-right: 40%;
+}
+
+.testimonial-flex > div:nth-child(2) {
+  padding-left: 40%;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 3rem;
+}
+
+.testimonial-small > h4 {
+  font-weight: 400;
+}
+
+.testimonial-job {
+  color: #c4c4c4;
+}
+
+@media (max-width: 1300px) {
+  .testimonial-content {
+    background-image: url(./images/Group\ 82.png);
+    background-size: auto 100%;
+    text-align: center;
+    padding: 0 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-grid {
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

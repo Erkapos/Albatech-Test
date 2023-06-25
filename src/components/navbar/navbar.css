@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  align-items: center;
+  padding: 21px 12%;
+  border-bottom: 1px solid black;
+}
+
+.navbar-container > img{
+  cursor: pointer;
+}
+
+.navbar-container > button:hover{
+  background-color: #f3c306;
+}
+
+.navbar-item{
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media (max-width: 1300px) {
+  .hidden {
+    display: none;
+  }
+  .navbar-container {
+    padding: 21px 2%;
+  }
+}
