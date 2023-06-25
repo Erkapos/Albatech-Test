@@ -1,0 +1,7 @@
+.fab {
+  position: fixed;
+  cursor: pointer;
+  z-index: 998;
+  right: 6%;
+  bottom: 6%;
+}

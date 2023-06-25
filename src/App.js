@@ -8,6 +8,7 @@ import Testimonial from "./components/testimonial/testimonial";
 import Partnered from "./components/partnered/partnered";
 import Consultation from "./components/consultation/consultation";
 import Footer from "./components/footer/footer";
+import FAB from "./components/fab/fab";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Partnered />
       <Consultation />
       <Footer />
+      <FAB />
     </div>
   );
 }
