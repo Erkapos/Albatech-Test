@@ -4,7 +4,7 @@ Inteview technical test from Alba Digital Tech using ReactJS.
 
 additional task includes
 - fixed navbar
-- create login and profile page
+- create login (with credential : eve.holt@reqres.in / bebas) and profile page
 - create functioning authorization mechanism
 
 # How to use
